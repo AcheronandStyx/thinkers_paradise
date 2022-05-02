@@ -18,8 +18,13 @@ const UserSchema = new Schema({
     unique: true,
     validate: [isEmail, "invalid email"],
   },
-  thoughts: [], // array of thought IDs
-  friends: [], // array of user IDs referencing the User model
+  thoughts: [
+    {
+      type: Schema.Types.ObjectId,
+      ref: "Thought",
+    },
+  ], // array of thought IDs
+  friends: [this], // array of user IDs referencing the User model
 });
 
 UserSchema.virtual("friendCount").get(function () {
