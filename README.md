@@ -14,7 +14,7 @@ _ The API makes use of the User and Thought models to interface with the data.
 _ It includes routes to get all of a given model, get an item by id, delete by id, update by id and create new items.
 _ It also includes routes to add and remove friends from the User model and routes to add and remove reactions to the Thought model.
 
-You can find the repositoiry here -> [Thinkers Paradise](https://github.com/AcheronandStyx/thinkers_paradise).
+You can find the repository here -> [Thinkers Paradise](https://github.com/AcheronandStyx/thinkers_paradise).
 
 
 ## License
