@@ -1,7 +1,5 @@
 # thinkers_paradise
 
-# Ticky Tacky Tech Blog
-
 ## Table of Contents
 
 - [Description](#description)
